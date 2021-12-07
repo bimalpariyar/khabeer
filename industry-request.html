@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Request</title>
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container-fluid">
+            <div class="header-content">
+                <div class="ham-meunu">
+                    <img src="./img/ham-menu.png" alt="">
+                </div>
+                <div class="logo">
+                    <a href="#">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                </div>
+                <h1>Industry Expert Services Portal</h1>
+            </div>
+        </div>
+    </header>
+    <div class="header-spacer"></div>
+    <section class="mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-xl-3 resp-hide">
+                    <div style="background: #f2f2f2;" class="rounded p-4 home-sidebar">
+                        <div class="user-info mb-4">
+                            <div class="user-dp-img">
+                                <img src="./img/man.jpg" alt="">
+                            </div>
+                            <div class="user-info-text">
+                                <h2 class="text-uppercase">
+                                    Mr. Kamel Fathy Fayed
+                                </h2>
+                                <div class="user-designation">
+                                    Executive Director
+                                </div>
+                                <div class="user-department">
+                                    Department of Finance
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-nav pt-4">
+                            <ul>
+                                <li class="rounded active">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Dashboard</span>
+                                        <span class="link-icon">
+                                            <img src="./img/dashboard-icon.svg" alt="">
+                                        </span>
+                                    </a>
+
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Create New Request</span>
+                                        <span class="link-icon">
+                                            <img src="./img/create-new-req.svg" alt="">
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Pending Request</span>
+                                        <span class="link-icon">
+                                            <img src="./img/pending-req.svg" alt="">
+                                        </span>
+                                    </a>
+
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Approved Request</span>
+                                        <span class="link-icon">
+                                            <img src="./img/approved-req.svg" alt="">
+                                        </span>
+                                    </a>
+
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">
+                                            Feedback
+                                        </span>
+                                        <span class="link-icon">
+                                            <img src="./img/feedback.svg" alt="">
+                                        </span>
+                                    </a>
+
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Archive</span>
+                                        <span class="link-icon">
+                                            <img src="./img/archive.svg" alt="">
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Contact BI Team</span>
+                                        <span class="link-icon">
+                                            <img src="./img/contactbi-team.svg" alt="">
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-xl-9 col-sm-12">
+                    <div class="my-4">
+                        <h2>Khabeer Industry Expert Service</h2>
+                    </div>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Requester</label>
+                                    <input type="text" class="form-control" placeholder="Requester" value="Requester">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Requesting Department</label>
+                                    <input type="text" class="form-control" placeholder="Requesting Department"
+                                        value="Requesting Department">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Time and Date of Request</label>
+                                    <input type="date" class="form-control" value="2021-06-01">
+
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <p>
+                                    <i>
+                                        Note: Each request is charged at a per hour basis. All experts will be chosen
+                                        after a short introductory call between requestor and expert candidate. Expert
+                                        specificity will guide the search, but does not guarantee an expert from the
+                                        same location/factory. Please be mindful that the experts will be used as an
+                                        advisor, i.e. full form technical solutions from them are not advised.
+                                    </i>
+                                </p>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">What Product would you like the Market
+                                        Sector / Product for Request</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <!--Objective of Request-->
+                            <div class="col-md-12 mt-3">
+                                <div class="mb-2">
+                                    Objective of Request
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check1">
+                                    <label class="form-check-label" for="check1">
+                                        Factory Setup Advisory / Machinery Installation Advisory
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check2">
+                                    <label class="form-check-label" for="check2">
+                                        Assessment of Specifications / Technical Validation
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Production Line Efficiency
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Raw Material Sourcing
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Market Mapping / General Market Feasibility Advisory
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Price Verification (only for generic plans and will not be conducted if original
+                                        quotation and plan requires equipment from the OEM/specific brands)
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Product Testing Report (report will be charged by client, interpretation and
+                                        recommendations through Khabeer)
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Expansion Plan Advisory
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Webinar
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Benefitting SMEs Names</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <!--Type of Output Required-->
+                            <div class="col-md-12 mt-3">
+                                <div class="mb-2">
+                                    Type of Output Required
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Report
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Site Visit
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Call
+                                    </label>
+                                </div>
+                            </div>
+                            <!--Type of Information Available-->
+                            <div class="col-md-12 mt-3">
+                                <div class="mb-2">
+                                    Type of Information Available
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Feasibility Study
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Credit Memo
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Factory Floor Plan
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Business Plan
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Machinery Specifications
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Other</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <!--Dcoucment-->
+                            <div class="col-md-12 mb-4">
+                                <div class="form-group">
+                                    <label>Document Upload (please upload all relevant documents for BI team to validate
+                                        request and formalize scope, these documents will not be shared externally
+                                        without explicit permission from requestor</label>
+                                    <input type="file" class="form-control-file">
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Scope i.e. list of questions that need to
+                                        be answered by expert in preferred output format (will be refined after request
+                                        approval and receival of documents)</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Expert Background (i.e. names of companies
+                                        where the expert needs to be from)</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Expert Location (i.e. country from where
+                                        the expert needs to be experienced)</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <!--Type of Information Available-->
+                            <div class="col-md-12 mt-3">
+                                <div class="mb-2">
+                                    Expert Experience (what positions they have worked in)
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        CEO
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        COO (Operations Expert)
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Managing Director / General Manager
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Factory Manager
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Technical Advisor
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Sales Expert
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Quality Control Expert
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Procurement Expert
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Health and Safety Expert
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Research and Development Expert
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Independent Consultant
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Other</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Estimate for number of hours required by
+                                        expert</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- ends -->
+                            <div class="col-md-12">
+                                <p>
+                                    <i>
+                                        Note: Turnaround time for Market Access Report for a single product is 4 to 6
+                                        Business days. Sector level reports can take double the time.
+                                    </i>
+                                </p>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="primary-bg mt-4 py-4">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="footer-links">
+                    <ul>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Back to 360</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="openmenu-backdrop"></div>
+    <div class="side-drawer-menu">
+        <div class="side-drawer-content">
+            <div class="drawer-menu-close px-4 pt-4">
+                <div class="drawer-menu-close-icon">
+                    <img src="./img/drawer-close.png" alt="">
+                </div>
+            </div>
+            <div class="user-info mb-4 px-4">
+                <div class="user-dp-img">
+                    <img src="./img/man.jpg" alt="">
+                </div>
+                <div class="user-info-text">
+                    <h2 class="text-uppercase">
+                        Mr. Kamel Fathy Fayed
+                    </h2>
+                    <div class="user-designation">
+                        Executive Director
+                    </div>
+                    <div class="user-department">
+                        Department of Finance
+                    </div>
+                </div>
+            </div>
+            <div class="side-nav pt-4 px-4 pb-4">
+                <ul>
+                    <li class="rounded active">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Dashboard</span>
+                            <span class="link-icon">
+                                <img src="./img/dashboard-icon.svg" alt="">
+                            </span>
+                        </a>
+
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Create New Request</span>
+                            <span class="link-icon">
+                                <img src="./img/create-new-req.svg" alt="">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Pending Request</span>
+                            <span class="link-icon">
+                                <img src="./img/pending-req.svg" alt="">
+                            </span>
+                        </a>
+
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Approved Request</span>
+                            <span class="link-icon">
+                                <img src="./img/approved-req.svg" alt="">
+                            </span>
+                        </a>
+
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">
+                                Feedback
+                            </span>
+                            <span class="link-icon">
+                                <img src="./img/feedback.svg" alt="">
+                            </span>
+                        </a>
+
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Archive</span>
+                            <span class="link-icon">
+                                <img src="./img/archive.svg" alt="">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Contact BI Team</span>
+                            <span class="link-icon">
+                                <img src="./img/contactbi-team.svg" alt="">
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src=" ./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

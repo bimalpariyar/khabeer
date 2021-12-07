@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Request</title>
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container-fluid">
+            <div class="header-content">
+                <div class="ham-meunu">
+                    <img src="./img/ham-menu.png" alt="">
+                </div>
+                <div class="logo">
+                    <a href="#">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                </div>
+                <h1>Industry Expert Services Portal</h1>
+            </div>
+        </div>
+    </header>
+    <div class="header-spacer"></div>
+    <section class="mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-xl-3 resp-hide">
+                    <div style="background: #f2f2f2;" class="rounded p-4 home-sidebar">
+                        <div class="user-info mb-4">
+                            <div class="user-dp-img">
+                                <img src="./img/man.jpg" alt="">
+                            </div>
+                            <div class="user-info-text">
+                                <h2 class="text-uppercase">
+                                    Mr. Kamel Fathy Fayed
+                                </h2>
+                                <div class="user-designation">
+                                    Executive Director
+                                </div>
+                                <div class="user-department">
+                                    Department of Finance
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-nav pt-4">
+                            <ul>
+                                <li class="rounded active">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Dashboard</span>
+                                        <span class="link-icon">
+                                            <img src="./img/dashboard-icon.svg" alt="">
+                                        </span>
+                                    </a>
+
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Create New Request</span>
+                                        <span class="link-icon">
+                                            <img src="./img/create-new-req.svg" alt="">
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Pending Request</span>
+                                        <span class="link-icon">
+                                            <img src="./img/pending-req.svg" alt="">
+                                        </span>
+                                    </a>
+
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Approved Request</span>
+                                        <span class="link-icon">
+                                            <img src="./img/approved-req.svg" alt="">
+                                        </span>
+                                    </a>
+
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">
+                                            Feedback
+                                        </span>
+                                        <span class="link-icon">
+                                            <img src="./img/feedback.svg" alt="">
+                                        </span>
+                                    </a>
+
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Archive</span>
+                                        <span class="link-icon">
+                                            <img src="./img/archive.svg" alt="">
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Contact BI Team</span>
+                                        <span class="link-icon">
+                                            <img src="./img/contactbi-team.svg" alt="">
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-xl-9 col-sm-12">
+                    <div class="my-4">
+                        <h2>Market Acccess Report Request</h2>
+                    </div>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Requester</label>
+                                    <input type="text" class="form-control" placeholder="Requester" value="Requester">
+                                    <div class="invalid-feedback" style="display: block;">
+                                        <!-- Add css display block dynamically-->
+                                        Test Error message.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Requesting Department</label>
+                                    <input type="text" class="form-control" placeholder="Requesting Department"
+                                        value="Requesting Department">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Time and Date of Request</label>
+                                    <input type="date" class="form-control" value="2021-06-01">
+
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">What Product would you like the Market
+                                        Access Report for</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">Please mention any HS codes / ISIC codes for
+                                        the aforementioned product</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Please mention any local companies for the
+                                        aforementioned product</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-2">
+                                    What type of information would you like to be included in the report?
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check1">
+                                    <label class="form-check-label" for="check1">
+                                        Trade Data Import (Last 3 years excluding current year)
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check2">
+                                    <label class="form-check-label" for="check2">
+                                        Trade Data Export (Last 3 years excluding current year)
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                        Local Manufacturer Data (Under Construction and Operational Companies from MOCI
+                                        database with registered capacities and utilization)
+                                    </label>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="pl-4 pt-1">
+                                            <div class="mb-2">
+                                                Cost of Manufacturing Insights, if available in 65 products benchmarked
+                                            </div>
+                                            <div class="pl-4">
+                                                <div class="form-check mb-1">
+                                                    <input class="form-check-input" type="checkbox" id="check4">
+                                                    <label class="form-check-label" for="check4">
+                                                        Manufacturing Process
+                                                    </label>
+                                                </div>
+                                                <div class="form-check mb-1">
+                                                    <input class="form-check-input" type="checkbox" id="check5">
+                                                    <label class="form-check-label" for="check5">
+                                                        Setup Costs
+                                                    </label>
+                                                </div>
+                                                <div class="form-check mb-1">
+                                                    <input class="form-check-input" type="checkbox" id="check6">
+                                                    <label class="form-check-label" for="check6">
+                                                        Cost Benchmarks with Competing Countries
+                                                    </label>
+                                                </div>
+                                                <div class="form-check mb-1">
+                                                    <input class="form-check-input" type="checkbox" id="check7">
+                                                    <label class="form-check-label" for="check7">
+                                                        COVID-19 impact
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check8">
+                                    <label class="form-check-label" for="check8">
+                                        Global Market Outlook
+                                    </label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="checkbox" id="check9">
+                                    <label class="form-check-label" for="check9">
+                                        Backup Excel Sheet
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Other Special Request</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <p>
+                                    <i>
+                                        Note: Turnaround time for Market Access Report for a single product is 4 to 6
+                                        Business days. Sector level reports can take double the time.
+                                    </i>
+                                </p>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="primary-bg mt-4 py-4">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="footer-links">
+                    <ul>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Back to 360</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="openmenu-backdrop"></div>
+    <div class="side-drawer-menu">
+        <div class="side-drawer-content">
+            <div class="drawer-menu-close px-4 pt-4">
+                <div class="drawer-menu-close-icon">
+                    <img src="./img/drawer-close.png" alt="">
+                </div>
+            </div>
+            <div class="user-info mb-4 px-4">
+                <div class="user-dp-img">
+                    <img src="./img/man.jpg" alt="">
+                </div>
+                <div class="user-info-text">
+                    <h2 class="text-uppercase">
+                        Mr. Kamel Fathy Fayed
+                    </h2>
+                    <div class="user-designation">
+                        Executive Director
+                    </div>
+                    <div class="user-department">
+                        Department of Finance
+                    </div>
+                </div>
+            </div>
+            <div class="side-nav pt-4 px-4 pb-4">
+                <ul>
+                    <li class="rounded active">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Dashboard</span>
+                            <span class="link-icon">
+                                <img src="./img/dashboard-icon.svg" alt="">
+                            </span>
+                        </a>
+
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Create New Request</span>
+                            <span class="link-icon">
+                                <img src="./img/create-new-req.svg" alt="">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Pending Request</span>
+                            <span class="link-icon">
+                                <img src="./img/pending-req.svg" alt="">
+                            </span>
+                        </a>
+
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Approved Request</span>
+                            <span class="link-icon">
+                                <img src="./img/approved-req.svg" alt="">
+                            </span>
+                        </a>
+
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">
+                                Feedback
+                            </span>
+                            <span class="link-icon">
+                                <img src="./img/feedback.svg" alt="">
+                            </span>
+                        </a>
+
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Archive</span>
+                            <span class="link-icon">
+                                <img src="./img/archive.svg" alt="">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Contact BI Team</span>
+                            <span class="link-icon">
+                                <img src="./img/contactbi-team.svg" alt="">
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src=" ./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

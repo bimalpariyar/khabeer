@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container-fluid">
+            <div class="header-content">
+                <div class="ham-meunu">
+                    <img src="./img/ham-menu.png" alt="">
+                </div>
+                <div class="logo">
+                    <a href="#">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                </div>
+                <h1>Industry Expert Services Portal</h1>
+            </div>
+        </div>
+    </header>
+    <div class="header-spacer"></div>
+    <section class="mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-xl-3 resp-hide">
+                    <div style="background: #f2f2f2;" class="rounded p-4 home-sidebar">
+                        <div class="user-info mb-4">
+                            <div class="user-dp-img">
+                                <img src="./img/man.jpg" alt="">
+                            </div>
+                            <div class="user-info-text">
+                                <h2 class="text-uppercase">
+                                    Mr. Kamel Fathy Fayed
+                                </h2>
+                                <div class="user-designation">
+                                    Executive Director
+                                </div>
+                                <div class="user-department">
+                                    Department of Finance
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-nav pt-4">
+                            <ul>
+                                <li class="rounded active">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Dashboard</span>
+                                        <span class="link-icon">
+                                            <img src="./img/dashboard-icon.svg" alt="">
+                                        </span>
+                                    </a>
+
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Create New Request</span>
+                                        <span class="link-icon">
+                                            <img src="./img/create-new-req.svg" alt="">
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Pending Request</span>
+                                        <span class="link-icon">
+                                            <img src="./img/pending-req.svg" alt="">
+                                        </span>
+                                    </a>
+
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Approved Request</span>
+                                        <span class="link-icon">
+                                            <img src="./img/approved-req.svg" alt="">
+                                        </span>
+                                    </a>
+
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">
+                                            Feedback
+                                        </span>
+                                        <span class="link-icon">
+                                            <img src="./img/feedback.svg" alt="">
+                                        </span>
+                                    </a>
+
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Archive</span>
+                                        <span class="link-icon">
+                                            <img src="./img/archive.svg" alt="">
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="rounded">
+                                    <a href="#" class="py-2 px-4">
+                                        <span class="link-text">Contact BI Team</span>
+                                        <span class="link-icon">
+                                            <img src="./img/contactbi-team.svg" alt="">
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-xl-9 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-4 mb-md-4 mb-sm-4 mb-4">
+                            <div class="callout-dash create-req-btn text-center rounded p-4">
+                                <div class="callout-title text-uppercase">
+                                    Create New Request
+                                </div>
+                                <div class="box-icon-text">+</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-md-4 mb-sm-4 mb-4">
+                            <div class="callout-dash text-center rounded p-4">
+                                <div class="callout-title text-uppercase">
+                                    Total Requests
+                                </div>
+                                <div class="box-icon-text">24</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-md-4 mb-sm-4 mb-4">
+                            <div class="callout-dash text-center rounded p-4">
+                                <div class="callout-title text-uppercase">
+                                    Remaining Credits
+                                </div>
+                                <div class="box-icon-text">80</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card-box rounded">
+                                    <div class="card-heading primary-bg rounded py-2 px-4">
+                                        <div class="heading-text text-white">
+                                            Peding Requests
+                                        </div>
+                                        <div>
+                                            <a href="#" class="button-link py-2 px-4 rounded">View All</a>
+                                        </div>
+                                    </div>
+                                    <div class="p-4 table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Number</th>
+                                                    <th scope="col">Request Type</th>
+                                                    <th scope="col">Request Name</th>
+                                                    <th scope="col">Request Date</th>
+                                                    <th scope="col">Request Status</th>
+                                                    <th scope="col"></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>23</td>
+                                                    <td>Market Access</td>
+                                                    <td>Request Two</td>
+                                                    <td>2 Augus,2020</td>
+                                                    <td>Pending with BI Team</td>
+                                                    <td>
+                                                        <a href="#"
+                                                            class="light-gery-bg button-link py-2 px-4 rounded">View
+                                                            Details</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>23</td>
+                                                    <td>Market Access</td>
+                                                    <td>Request Two</td>
+                                                    <td>2 Augus,2020</td>
+                                                    <td>Pending with BI Team</td>
+                                                    <td>
+                                                        <a href="#"
+                                                            class="light-gery-bg button-link py-2 px-4 rounded">View
+                                                            Details</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card-box rounded">
+                                    <div class="card-heading primary-bg rounded py-2 px-4">
+                                        <div class="heading-text text-white">
+                                            Approved Requests
+                                        </div>
+                                        <div>
+                                            <a href="#" class="light-gery-bg button-link py-2 px-4 rounded">View All</a>
+                                        </div>
+                                    </div>
+                                    <div class="p-4 table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Number</th>
+                                                    <th scope="col">Request Type</th>
+                                                    <th scope="col">Request Name</th>
+                                                    <th scope="col">Approval Date</th>
+                                                    <th scope="col">Approved By</th>
+                                                    <th scope="col"></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>23</td>
+                                                    <td>Market Access</td>
+                                                    <td>Request Two</td>
+                                                    <td>2 Augus,2020</td>
+                                                    <td>Pending with BI Team</td>
+                                                    <td>
+                                                        <a href="#"
+                                                            class="light-gery-bg button-link py-2 px-4 rounded">View
+                                                            Details</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>23</td>
+                                                    <td>Market Access</td>
+                                                    <td>Request Two</td>
+                                                    <td>2 Augus,2020</td>
+                                                    <td>Pending with BI Team</td>
+                                                    <td>
+                                                        <a href="#"
+                                                            class="light-gery-bg button-link py-2 px-4 rounded">View
+                                                            Details</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="primary-bg mt-4 py-4">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="footer-links">
+                    <ul>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Back to 360</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="openmenu-backdrop"></div>
+    <div class="side-drawer-menu">
+        <div class="side-drawer-content">
+            <div class="drawer-menu-close px-4 pt-4">
+                <div class="drawer-menu-close-icon">
+                    <img src="./img/drawer-close.png" alt="">
+                </div>
+            </div>
+            <div class="user-info mb-4 px-4">
+                <div class="user-dp-img">
+                    <img src="./img/man.jpg" alt="">
+                </div>
+                <div class="user-info-text">
+                    <h2 class="text-uppercase">
+                        Mr. Kamel Fathy Fayed
+                    </h2>
+                    <div class="user-designation">
+                        Executive Director
+                    </div>
+                    <div class="user-department">
+                        Department of Finance
+                    </div>
+                </div>
+            </div>
+            <div class="side-nav pt-4 px-4 pb-4">
+                <ul>
+                    <li class="rounded active">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Dashboard</span>
+                            <span class="link-icon">
+                                <img src="./img/dashboard-icon.svg" alt="">
+                            </span>
+                        </a>
+
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Create New Request</span>
+                            <span class="link-icon">
+                                <img src="./img/create-new-req.svg" alt="">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Pending Request</span>
+                            <span class="link-icon">
+                                <img src="./img/pending-req.svg" alt="">
+                            </span>
+                        </a>
+
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Approved Request</span>
+                            <span class="link-icon">
+                                <img src="./img/approved-req.svg" alt="">
+                            </span>
+                        </a>
+
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">
+                                Feedback
+                            </span>
+                            <span class="link-icon">
+                                <img src="./img/feedback.svg" alt="">
+                            </span>
+                        </a>
+
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Archive</span>
+                            <span class="link-icon">
+                                <img src="./img/archive.svg" alt="">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="rounded">
+                        <a href="#" class="py-2 px-4">
+                            <span class="link-text">Contact BI Team</span>
+                            <span class="link-icon">
+                                <img src="./img/contactbi-team.svg" alt="">
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="create-request-popup">
+        <div class="container">
+            <div class="text-center">
+                <div class="close-button mb-4">
+                    <img src="./img/close-white-cross.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-sm-4 mb-md-0">
+                    <div class="create-req-opt rounded p-4">
+                        <img src="./img/market-access-report.png" alt="">
+                        <h2>Market Access Report</h2>
+                        <div class="text-center">
+                            <a href="#" class="primary-bg text-white button-link py-2 px-4 rounded">
+                                Request
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="create-req-opt rounded p-4">
+                        <img src="./img/expert-service.png" alt="">
+                        <h2>Khabeer Industry Expert Service</h2>
+                        <div class="text-center">
+                            <a href="#" class="primary-bg text-white button-link py-2 px-4 rounded">
+                                Request
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src=" ./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

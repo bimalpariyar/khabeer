@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1366px) {
+  .home-sidebar .user-info {
+    flex-direction: column;
+  }
+  .user-info-text {
+    margin-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 1100px) {
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .resp-hide {
+    display: none;
+  }
+  .ham-meunu {
+    display: block;
+  }
+}
