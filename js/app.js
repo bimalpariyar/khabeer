@@ -37,6 +37,16 @@ $(document).ready(function () {
     $("body").css({ overflow: "" });
   });
 
+  //Feeback smiley
+  $("#feed-options label").on("click", function () {
+    var children = $(this).parent().siblings().children();
+    $(this).addClass("selected");
+
+    if (children.hasClass("selected")) {
+      children.removeClass("selected");
+    }
+  });
+
   assingHeaderSpacerHeight();
 });
 

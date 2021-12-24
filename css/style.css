@@ -349,3 +349,36 @@ body {
   background: #4e2e80 !important;
 }
 /* Button css*/
+
+/* Feedback box css */
+#feedback-sec {
+}
+#feed-options {
+  display: flex;
+}
+.feed-option {
+  position: relative;
+  margin-right: 5rem;
+}
+.feed-option label {
+  cursor: pointer;
+}
+
+.selected-smiley {
+  display: none;
+}
+
+.feed-option label.selected .default-smiley {
+  display: none;
+}
+.feed-option label.selected .selected-smiley {
+  display: block;
+}
+
+.feed-option input {
+  position: absolute;
+  z-index: -1;
+  visibility: hidden;
+}
+
+/* Feedback box css */
